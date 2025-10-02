@@ -1,0 +1,7 @@
+cub3D
+cub3D_bonus
+*.o
+*.a
+.vscode
+README.md
+a.out

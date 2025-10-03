@@ -12,7 +12,7 @@
 
 #include "../../incs_bonus/cub3d_bonus.h"
 
-static void inline	_mmap_draw_text(t_data *data, t_mmtex v)
+static inline void	_mmap_draw_text(t_data *data, t_mmtex v)
 {
 	int		ws;
 	char	*sw;
@@ -59,7 +59,7 @@ int	_draw_hp(t_data *data)
 	return (0);
 }
 
-static void inline	_mmap_draw_text2(t_data *data, t_mmtex v)
+static inline void	_mmap_draw_text2(t_data *data, t_mmtex v)
 {
 	int		ws;
 	char	*sw;

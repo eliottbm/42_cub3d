@@ -49,7 +49,7 @@ void	moov_player_ws(int keycode, t_data *data)
 			(int)floor(data->player.pos[0]), data);
 }
 
-static void inline	init_1line(t_data *data
+static inline void	init_1line(t_data *data
 	, int keycode, double *p_speed, double (*perp)[2])
 {
 	*p_speed = data->player.m_speed;

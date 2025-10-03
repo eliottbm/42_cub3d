@@ -21,7 +21,7 @@ int	_mmap_key_handle(t_data *data, int (pos)[2])
 	return (0);
 }
 
-static void inline	_mmap_draw_loop2(char c, void **text, t_data *data)
+static inline void	_mmap_draw_loop2(char c, void **text, t_data *data)
 {
 	if (c == '-' || c == '1' || c == '2')
 		*text = data->tex.ceil;
@@ -33,7 +33,7 @@ static void inline	_mmap_draw_loop2(char c, void **text, t_data *data)
 		*text = data->tex.exit;
 }
 
-static int inline	_mmap_draw_loop(t_data *data, char **map)
+static inline int	_mmap_draw_loop(t_data *data, char **map)
 {
 	int		p[2];
 	void	*text;

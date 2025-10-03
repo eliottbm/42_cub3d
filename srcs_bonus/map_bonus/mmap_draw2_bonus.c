@@ -12,7 +12,7 @@
 
 #include "../../incs_bonus/cub3d_bonus.h"
 
-static void inline	_mmap_draw_case(t_data *data, t_mmtex *v)
+static inline void	_mmap_draw_case(t_data *data, t_mmtex *v)
 {
 	int		ws;
 	char	*sw;
@@ -36,7 +36,7 @@ static void inline	_mmap_draw_case(t_data *data, t_mmtex *v)
 	}
 }
 
-static void inline	_mmap_draw_key(t_data *data, t_mmtex *v)
+static inline void	_mmap_draw_key(t_data *data, t_mmtex *v)
 {
 	int		ws;
 	char	*sw;
@@ -63,7 +63,7 @@ static void inline	_mmap_draw_key(t_data *data, t_mmtex *v)
 	}
 }
 
-static void inline	init_draw_pixel(t_mmtex *v, int x, int y)
+static inline void	init_draw_pixel(t_mmtex *v, int x, int y)
 {
 	v->k = -1;
 	v->x = x;

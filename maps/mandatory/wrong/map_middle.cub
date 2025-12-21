@@ -1,0 +1,23 @@
+NO textures/testing/north_testing.xpm
+SO textures/testing/south_testing.xpm
+WE textures/testing/west_testing.xpm
+EA textures/testing/east_testing.xpm
+
+11111
+10001
+10S01
+10001
+10001
+10001
+11001
+10001
+10001
+10001
+10001
+10001
+11111
+
+F 20,20,20
+C 200,200,200
+
+
